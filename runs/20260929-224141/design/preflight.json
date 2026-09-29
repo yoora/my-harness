@@ -1,0 +1,13 @@
+{
+  "file_access": true,
+  "existing_pages": [
+    {
+      "id": "0:1",
+      "name": "Page 1",
+      "children": 0
+    }
+  ],
+  "pretendard_available": false,
+  "loaded_weights": [],
+  "canvas_mutated": false
+}

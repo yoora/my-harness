@@ -1,0 +1,389 @@
+{
+  "run_id": "20260929-224141",
+  "implementation_scope": "G1 only",
+  "full_rules_status": "draft_pending_implementation",
+  "rules": [
+    {
+      "id": "G1.services",
+      "source": "AGENTS.md §6 G1",
+      "method": "verify_research.py",
+      "threshold": 3,
+      "required": true,
+      "origin": "AI 제안·사용자 채택"
+    },
+    {
+      "id": "G1.references",
+      "source": "AGENTS.md §6 G1",
+      "method": "verify_research.py",
+      "threshold": 6,
+      "required": true,
+      "origin": "AI 제안·사용자 채택"
+    },
+    {
+      "id": "G1.fields",
+      "source": "AGENTS.md §6 G1",
+      "method": "verify_research.py",
+      "threshold": 0,
+      "required": true,
+      "origin": "AI 제안·사용자 채택"
+    },
+    {
+      "id": "G1.patterns",
+      "source": "AGENTS.md §6 G1",
+      "method": "verify_research.py",
+      "threshold": 3,
+      "required": true,
+      "origin": "AI 제안·사용자 채택"
+    },
+    {
+      "id": "G1.support",
+      "source": "AGENTS.md §6 G1",
+      "method": "verify_research.py",
+      "threshold": 2,
+      "required": true,
+      "origin": "AI 제안·사용자 채택"
+    },
+    {
+      "id": "G1.coverage",
+      "source": "AGENTS.md §6 G1",
+      "method": "verify_research.py",
+      "threshold": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "required": true,
+      "origin": "AI 제안·사용자 채택"
+    }
+  ],
+  "pending_rules": [
+    {
+      "id": "G2.fields",
+      "source": "AGENTS.md §6 G2",
+      "method": null,
+      "threshold": 0,
+      "required": true,
+      "origin": "AI 제안·사용자 채택",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G2.conflicts",
+      "source": "AGENTS.md §6 G2",
+      "method": null,
+      "threshold": 0,
+      "required": true,
+      "origin": "AI 제안·사용자 채택",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G2.coverage",
+      "source": "AGENTS.md §6 G2",
+      "method": null,
+      "threshold": [
+        "color",
+        "spacing",
+        "typography",
+        "radius",
+        "shadow",
+        "frame",
+        "service_constraints"
+      ],
+      "required": true,
+      "origin": "AI 제안·사용자 채택",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G2.provenance",
+      "source": "AGENTS.md §6 G2",
+      "method": null,
+      "threshold": 0,
+      "required": true,
+      "origin": "AI 제안·사용자 채택",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G3.screens",
+      "source": "AGENTS.md §6 G3",
+      "method": null,
+      "threshold": 5,
+      "required": true,
+      "origin": "AI 제안·사용자 채택",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G3.frames",
+      "source": "design.md Layout Responsive Strategy",
+      "method": null,
+      "threshold": [
+        390,
+        844
+      ],
+      "required": true,
+      "origin": "사용자 제공",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G3.overflow",
+      "source": "design.md Layout Responsive Strategy",
+      "method": null,
+      "threshold": {
+        "width": 360,
+        "unexpected_horizontal_overflow": 0
+      },
+      "required": true,
+      "origin": "사용자 제공",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G3.spacing",
+      "source": "design.md Layout Spacing System",
+      "method": null,
+      "threshold": {
+        "allowed": [
+          4,
+          8,
+          12,
+          16,
+          24,
+          32,
+          48,
+          64
+        ],
+        "screen_side_padding": 16
+      },
+      "required": true,
+      "origin": "사용자 제공",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G3.colors",
+      "source": "design.md Colors",
+      "method": null,
+      "threshold": {
+        "ui_palette": [
+          "#141414",
+          "#ffffff",
+          "#f3f3f3",
+          "#f0f0f0",
+          "#e0e0e0",
+          "#262626",
+          "#707070",
+          "#adadad",
+          "#0066ff"
+        ],
+        "accent_max_per_screen": 2,
+        "accent_cta_count": 0,
+        "accent_use": "commercial_only"
+      },
+      "required": true,
+      "origin": "사용자 제공",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G3.typography",
+      "source": "design.md Typography + user replies FONT-01/FONT-02",
+      "method": null,
+      "threshold": {
+        "font_family": "Noto Sans KR",
+        "letter_spacing": 0,
+        "button_label_weight": 700,
+        "other_weights": "preserve design.md; title 600 remains unavailable and unapproved"
+      },
+      "required": true,
+      "origin": "사용자 제공",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G3.radius",
+      "source": "design.md Shapes and Components",
+      "method": null,
+      "threshold": {
+        "allowed": [
+          0,
+          16,
+          24,
+          9999
+        ],
+        "inputs": 16,
+        "pill_roles": [
+          "buttons",
+          "badges",
+          "toggles"
+        ],
+        "app_icons": "30%"
+      },
+      "required": true,
+      "origin": "사용자 제공",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G3.shadow",
+      "source": "design.md Do not add drop shadows",
+      "method": null,
+      "threshold": {
+        "drop_shadow_count": 0
+      },
+      "required": true,
+      "origin": "사용자 제공",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G3.private",
+      "source": "story-service.md condition 1; AGENTS.md §6 G3",
+      "method": null,
+      "threshold": "private",
+      "required": true,
+      "origin": "사용자 제공",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G3.explicit_choice",
+      "source": "story-service.md condition 1; AGENTS.md §6 G3",
+      "method": null,
+      "threshold": {
+        "public_or_sale_request_without_explicit_choice": 0
+      },
+      "required": true,
+      "origin": "사용자 제공",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G3.review_before_sale",
+      "source": "story-service.md condition 2; AGENTS.md §6 G3",
+      "method": null,
+      "threshold": {
+        "sale_without_operator_approval": 0
+      },
+      "required": true,
+      "origin": "사용자 제공",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G3.mvp",
+      "source": "prd.md MVP; AGENTS.md §6 G3",
+      "method": null,
+      "threshold": {
+        "actual_sale_flow": 0
+      },
+      "required": true,
+      "origin": "사용자 제공",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "G3.evidence",
+      "source": "AGENTS.md §6 G3",
+      "method": null,
+      "threshold": {
+        "missing": 0,
+        "failed": 0,
+        "uninspected": 0,
+        "execution_errors": 0
+      },
+      "required": true,
+      "origin": "AI 제안·사용자 채택",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "automatic"
+    },
+    {
+      "id": "H1.review",
+      "source": "AGENTS.md §6 H1",
+      "method": null,
+      "threshold": {
+        "design_quality_reviewed": true,
+        "privacy_and_copyright_reviewed": true,
+        "current_version_explicit_approval": 1
+      },
+      "required": true,
+      "origin": "AI 제안·사용자 채택",
+      "implementation_status": "not_implemented",
+      "inspection_mode": "human"
+    }
+  ],
+  "exceptions": [
+    {
+      "id": "FONT-01",
+      "origin": "사용자 명시 승인",
+      "scope": "this run only",
+      "original": "Pretendard",
+      "replacement": "Noto Sans KR"
+    },
+    {
+      "id": "FONT-02",
+      "origin": "사용자 명시 승인",
+      "scope": "buttons and labels only, this run",
+      "original_weight": 600,
+      "replacement_weight": 700,
+      "does_not_authorize": "title or non-label/nav text 600 replacement"
+    }
+  ],
+  "conflict_resolutions": [
+    {
+      "id": "C1",
+      "source": "design.md Components text-input vs Do use rounded.full for every interactive element",
+      "selected": "text-input radius 16px",
+      "rejected": "pill radius for text inputs",
+      "reason": "specific component > Do/Don’t"
+    },
+    {
+      "id": "C2",
+      "source": "design.md Components pricing-card-featured vs Examples ex-pricing-tier-featured",
+      "selected": "canvas-soft borderless surface",
+      "rejected": "polarity-flipped featured pricing surface",
+      "reason": "specific component > example"
+    },
+    {
+      "id": "C3",
+      "source": "design.md Do/Don’t vs Elevation active-segment soft shadow and Examples modal/toast shadows",
+      "selected": "no drop shadows",
+      "rejected": "unspecified soft/medium shadows",
+      "reason": "Do/Don’t > general elevation description and examples; segmented-control component does not specify a shadow"
+    },
+    {
+      "id": "C4",
+      "source": "design.md Do/Don’t vs Examples ex-data-table-cell",
+      "selected": "sentence case without letter spacing",
+      "rejected": "all-caps mono eyebrow",
+      "reason": "Do/Don’t > example"
+    }
+  ],
+  "unresolved_dependencies": [
+    {
+      "id": "FONT-title-600",
+      "status": "conditional_blocker_if_used",
+      "details": "Noto Sans KR 600 unavailable. User authorized 700 replacement only for buttons/labels. Do not silently substitute title 600."
+    },
+    {
+      "id": "COLOR-on-primary",
+      "status": "conditional_blocker_if_used",
+      "details": "design.md references colors.on-primary but does not define literal value. White inferred from inverse footer description is an AI interpretation, not an explicit token value."
+    },
+    {
+      "id": "FIGMA-evidence",
+      "status": "missing",
+      "details": "Actual nodes, current version and 360px inspection required; planned rules do not imply executed checks."
+    }
+  ],
+  "notes": [
+    "G1 implementation scope is explicitly limited; G2/G3/H1 are pending and may not be marked passed.",
+    "Structure/screens.md describes design choices, not Figma or actual application runtime evidence.",
+    "No source document edited."
+  ]
+}

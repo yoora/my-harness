@@ -1,0 +1,103 @@
+{
+  "run_id": "20260929-224141",
+  "status": "blocked_figma",
+  "inputs": {
+    "feature": "멤버 자산 등록 → 판매 신청 → 운영자 검수",
+    "screens": [
+      {
+        "id": "S1",
+        "name": "내 자산 목록"
+      },
+      {
+        "id": "S2",
+        "name": "자산 등록"
+      },
+      {
+        "id": "S3",
+        "name": "자산 상세·신청 상태"
+      },
+      {
+        "id": "S4",
+        "name": "운영자 검수 목록"
+      },
+      {
+        "id": "S5",
+        "name": "운영자 검수 상세"
+      }
+    ],
+    "figma_file": "NoZOQuKh9eoPS9Idi7nH0V"
+  },
+  "source_hashes": {
+    "AGENTS.md": "1cb0a53f0e7f8200c40842934ddbfeafc3531460655c7344e3649f3ff0b823db",
+    "prd.md": "49c56925301ebc083f68413c7c8f75abfc485dbe92c33f5d22f4424454e6dcb8",
+    "design.md": "431827514d4688fe03f2f6724e0f3436f73476332bdff85e7031198e851e2b88",
+    "story-service.md": "0dbc726ae7e6318e875f06c2dcaf04c48779f886b545129f3cef3bcc7866a5fb",
+    "story-work.md": "b593520b5857c1c58c904dda9411d52ee1715492f76ee8bfa3aa85bffbfe4b2d"
+  },
+  "stages": {
+    "research": {
+      "status": "G1_numeric_pass",
+      "artifact": "research/references.md"
+    },
+    "structure": {
+      "status": "draft_complete",
+      "artifact": "structure/screens.md"
+    },
+    "rules": {
+      "status": "G1_implemented_G2_G3_pending"
+    },
+    "figma": {
+      "status": "blocked"
+    },
+    "review": {
+      "status": "not_started"
+    }
+  },
+  "gate_attempts": {
+    "G1": {
+      "checks": 1,
+      "automatic_fixes": 0
+    }
+  },
+  "approval": null,
+  "blockers": [
+    {
+      "id": "FIGMA_MCP_RATE_LIMIT",
+      "scope": "Figma discovery/construction/inspection",
+      "message": "Portfolio file NoZOQuKh9eoPS9Idi7nH0V also returns the connected Starter plan's Figma MCP call limit. The limit is account/team-level, so changing files does not bypass it. No canvas writes executed."
+    }
+  ],
+  "exceptions": [
+    {
+      "id": "FONT-01",
+      "source": "user explicit reply",
+      "scope": "this run only",
+      "original": "Pretendard",
+      "replacement": "Noto Sans KR"
+    },
+    {
+      "id": "FONT-02",
+      "source": "user explicit reply",
+      "scope": "button/label only, this run",
+      "original_weight": 600,
+      "replacement_weight": 700
+    }
+  ],
+  "resume_check": {
+    "source_changes": [],
+    "figma_retry": "Portfolio 파일 NoZOQuKh9eoPS9Idi7nH0V에서도 Starter MCP 호출 한도 오류를 반환함",
+    "canvas_mutated": false
+  },
+  "artifacts": {
+    "review.json": "b4b22bae57446b4d3287481070557990ed497288acb2daee003c6f2a07cb0207",
+    "research/references.json": "d187a9cb1238a695142592c6c6de13a43d9700d6462fc27b0d171389315479fb",
+    "research/references.md": "547d300787207263bde94c753dbe82da3f42f70b45585958a5f4743d7b997e6c",
+    "design/preflight.json": "bce363a5932ef27a5b767dd30a03d0f8dff011ff4a24e29096d3284c7b1f1fa7",
+    "validator/test_research.py": "3e934edd74c71f7af58e02a6a92988859ebcabff4d84e2d24ddaf6b4dc437810",
+    "validator/test-results.txt": "a93cfa7bf7fe0a1507bc3830da553ec02bf6af25c6d91f43ef4927e91e89b690",
+    "validator/verify_research.py": "2931cbb2fe3283bf4ea6535abbe65c77b51292800dc76be806bf5dba09817558",
+    "rules/rules.json": "ed69e0634c50d9585c4dfc110c02e9076daea1a44c223ea8bfdceca796cccc6d",
+    "structure/screens.md": "e81ee4d762bdd92efc1135507055e46b0dab6b9a590e519eddf8fed18e5b88e9"
+  },
+  "resume_at": "Wait for the connected Starter plan Figma MCP limit to reset or upgrade the plan; then use NoZOQuKh9eoPS9Idi7nH0V, complete G2 rules/checkers, construct Figma screens, and evaluate G3"
+}

@@ -1,0 +1,86 @@
+{
+  "run_id": "20260929-224141",
+  "status": "blocked",
+  "G1": {
+    "gate": "G1",
+    "status": "pass",
+    "checks": [
+      {
+        "rule_id": "G1.services",
+        "status": "pass",
+        "observed": 3,
+        "evidence": "research/references.json"
+      },
+      {
+        "rule_id": "G1.references",
+        "status": "pass",
+        "observed": 6,
+        "evidence": "research/references.json"
+      },
+      {
+        "rule_id": "G1.fields",
+        "status": "pass",
+        "observed": 0,
+        "evidence": "research/references.json"
+      },
+      {
+        "rule_id": "G1.patterns",
+        "status": "pass",
+        "observed": 3,
+        "evidence": "research/references.json"
+      },
+      {
+        "rule_id": "G1.support",
+        "status": "pass",
+        "observed": [],
+        "evidence": "research/references.json"
+      },
+      {
+        "rule_id": "G1.coverage",
+        "status": "pass",
+        "observed": [],
+        "evidence": "research/references.json"
+      }
+    ],
+    "scope": "Counts and reference relationships only; factual and visual quality require separate review."
+  },
+  "G1_self_tests": {
+    "cases": 18,
+    "status": "pass",
+    "evidence": "validator/test-results.txt"
+  },
+  "G2": {
+    "status": "not_tested",
+    "reason": "Full rules/checkers not implemented; font title 600 pending if used"
+  },
+  "G3": {
+    "status": "not_tested",
+    "reason": "No Figma artifacts or structural/visual evidence; MCP Starter call limit"
+  },
+  "H1": {
+    "status": "not_requested"
+  },
+  "full_harness_scenarios": {
+    "status": "not_tested"
+  },
+  "figma": {
+    "file_key": "J6ZoAQLTvPQxcIX7pQdtSR",
+    "canvas_mutated": false,
+    "created_screens": 0
+  },
+  "limitations": [
+    "G1 checks counts and links, not screenshot quality or factual truth.",
+    "Gumroad evidence uses official search excerpts; direct page bodies unavailable.",
+    "Admin screen layouts are PRD-based extrapolations, not observed competitor admin UIs.",
+    "No full pipeline or enforced agent filesystem sandbox has been tested."
+  ],
+  "read_only_judge": {
+    "G1": "numeric conditions pass; references conceptually relevant",
+    "limitations": [
+      "No direct screenshots; S4/S5 PRD extrapolation",
+      "Gumroad official search excerpts only",
+      "Factual truth not independently reverified"
+    ],
+    "G2_G3": "not approved; missing implementation and Figma evidence"
+  }
+}
